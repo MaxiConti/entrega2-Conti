@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylescss/style.css">
+    <title>MUSEO FUTBOLERO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <!-- Nombre y logo de la web -->
+        <div class="contenedor-encabezado">
+            <h1 class="titulo">MUSEO FUTBOLERO</h1>
+            <a href="index.html">
+            <img src="/img/logo.png" alt="Logo" class="logo">
+            </a>
+            <div class="links-derecha">
+            <a class="texto-nosotros" href="pages/sobre-nosotros.html">SOBRE NOSOTROS</a>
+            </div>
+        </div>
+        <!-- Barra de navegacion, cuenta y carrit-->
+        <div class="barra-cuenta-carrito">
+            <div class="contenedor-barra-busqueda">
+            <div class="contenedor-barra">
+<nav class="navbar bg-rgb(130, 224, 170) mt-2 p-1">
+<div class="container-fluid">
+    <form class="d-flex" role="search">
+    <input class="form-control me-2" type="search" placeholder="Ej: Barcelona 2015" aria-label="Search"/>
+<button type="button" class="btn btn-success">Buscar</button>
+    </form>
+</div>
+</nav>
+            </div>
+            <div class="cuenta-compras">
+            <a class="a-cuenta-compras" href="/pages/cuenta.html">
+                <img class="inicio-sesion" src="./img/13957.png"></a>
+            <a class="a-cuenta-compras" href="">
+                <img class="carro-compras" src="./img/carrito-de-compras.png" alt="Carro-de-compras"></a>
+            </div>
+            </div>
+        </div>
+<nav class="navbar navbar-expand-lg bg-success navbar-dark p-1">
+<div class="container-fluid">
+    <h2 class="text-light">
+        CAMISETAS RETRO
+    </h2>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuPrincipal">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link text-light" href="/index.html">INICIO</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="./pages/preguntas-frecuentes.html">PREGUNTAS</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="./pages/lavado-recomendado.html">LAVADO</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="./pages/contactanos.html">CONTACTANOS</a></li>
+    </ul>
+    </div>
+</div>
+</nav>
+    </header>
+    <main>
+        <!-- Filtro y orden de productos -->
+        <div class="d-flex flex-wrap flex-column flex-sm-row gap-2 mt-3">
+<div class="d-flex justify-content-end me-5">
+<div class="btn-group">
+    <button type="button" class="btn btn-success dropdown-toggle" style="width: 200px" data-bs-toggle="dropdown">
+    Ordenar por
+    </button>
+    <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Precio: menor a mayor</a></li>
+    <li><a class="dropdown-item" href="#">Precio: mayor a menor</a></li>
+    <li><a class="dropdown-item" href="#">Nombre: A-Z</a></li>
+    <li><a class="dropdown-item" href="#">Nombre: Z-A</a></li>
+    </ul>
+</div>
+</div>
+<div class="btn-group me-2">
+<button type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">
+    Talle
+</button>
+<ul class="dropdown-menu px-3 ">
+    <li><div class="form-check"><input class="form-check-input" type="checkbox" id="talleS"><label class="form-check-label" for="talleS">S</label></div></li>
+    <li><div class="form-check"><input class="form-check-input" type="checkbox" id="talleM"><label class="form-check-label" for="talleM">M</label></div></li>
+    <li><div class="form-check"><input class="form-check-input" type="checkbox" id="talleL"><label class="form-check-label" for="talleL">L</label></div></li>
+        <li><div class="form-check"><input class="form-check-input" type="checkbox" id="talleX"><label class="form-check-label" for="talleX">X</label></div></li>
+    <li><div class="form-check"><input class="form-check-input" type="checkbox" id="talleXL"><label class="form-check-label" for="talleXL">XL</label></div></li>
+</ul>
+</div>
+<div class="btn-group me-2">
+<button type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">
+    Jugador
+</button>
+<ul class="dropdown-menu px-3">
+    <li>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="jugadorMessi">
+        <label class="form-check-label" for="jugadorMessi">Messi</label>
+    </div>
+    </li>
+    <li>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="jugadorMaradona">
+        <label class="form-check-label" for="jugadorMaradona">Maradona</label>
+    </div>
+    </li>
+    <li>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="jugadorZidane">
+        <label class="form-check-label" for="jugadorZidane">Zidane</label>
+    </div>
+    </li>
+    <li>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="jugadorRiquelme">
+        <label class="form-check-label" for="jugadorRiquelme">Riquelme</label>
+    </div>
+    </li>
+    <li>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="jugadorCR7">
+        <label class="form-check-label" for="jugadorCR7">Cr7</label>
+    </div>
+    </li>
+    <li>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="jugadorRonaldinho">
+        <label class="form-check-label" for="jugadorRonaldinho">Ronaldinho</label>
+    </div>
+    </li>
+        <li>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="jugadorFrancescoli">
+        <label class="form-check-label" for="jugadorFrancescoli">Francescoli</label>
+    </div>
+    </li>
+        <li>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="jugadorRedondo">
+        <label class="form-check-label" for="jugadorRedondo">Redondo</label>
+    </div>
+    </li>
+        <li>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="jugadorTorres">
+        <label class="form-check-label" for="jugadorTorres">Torres</label>
+    </div>
+    </li>
+</ul>
+</div>
+        </div>
+        </div>
+        <!-- Productos (camisetas) -->
+        <section class="section-camisetas"> 
+            <div class="div-camisetas">
+<article class="card p-3">
+<div id="carouselBatistuta" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/BATISTUTA 94 FRENTE.png" class="d-block w-100" alt="Camiseta-Bati">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/BATISTUTA 94 ATRAS.png" class="d-block w-100" alt="Camiseta-Bati">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselBatistuta" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselBatistuta" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA - SELECCION ARGENTINA 1994 - BATISTUTA</h5>
+<h3>25.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselMessi" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/MESSI 2015 FRENTE.png" class="d-block w-100" alt="Camiseta-Messi">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/MESSI 2015 ATRAS.png" class="d-block w-100" alt="Camiseta-Messi">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMessi" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselMessi" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - FUTBOL CLUB BARCELONA 2015 - LIONEL MESSI</h5>
+<h3>35.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselJRR" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/RIQUELME 2007 FRENTE.png" class="d-block w-100" alt="Camiseta-JRR">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/RIQUELME 2007 ATRAS.png" class="d-block w-100" alt="Camiseta-JRR">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselJRR" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselJRR" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - BOCA JUNIORS 2007 - JUAN ROMAN RIQUELME</h5>
+<h3>20.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselNeymar" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/NEYMAR 2011 FRENTE.png" class="d-block w-100" alt="Camiseta-Neymar">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/NEYMAR 2011 ATRAS.png" class="d-block w-100" alt="Camiseta-Neymar">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselNeymar" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselNeymar" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - SANTOS 2010 - NEYMAR JR - TITULAR - BLANCA</h5>
+<h3>28.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselRedondo" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/REDONDO 98 FRENTE.png" class="d-block w-100" alt="Camiseta-Redondo">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/REDONDO 98 ATRAS.png" class="d-block w-100" alt="Camiseta-Redondo">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRedondo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselRedondo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - REAL MADRID 1998 - REDONDO - ALTERNATIVA</h5>
+<h3>30.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselTorres" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/TORRES 2008 FRENTE.png" class="d-block w-100" alt="Camiseta-Torres">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/TORRES 2008 ATRAS.png" class="d-block w-100" alt="Camiseta-Torres">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselTorres" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselTorres" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - ESPAÑA 2008 - SUPLENTE - TORRES - IMPORTADA</h5>
+<h3>35.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselRonaldo98" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/RONALDO 98 INTER FRENTE.png" class="d-block w-100" alt="Camiseta-Ronaldo-Inter">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/RONALDO INTER 98 ATRAS.png" class="d-block w-100" alt="Camiseta-Ronaldo-Inter">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRonaldo98" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselRonaldo98" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - INTER DE MILAN AÑO 1998 - RONALDO NAZARIO</h5>
+<h3>38.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselRonaldinho" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/RONALDINHO 2009 FRENTE.png" class="d-block w-100" alt="Camiseta-Ronaldinho">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/RONALDINHO 2009 ATRAS.png" class="d-block w-100" alt="Camiseta-Ronaldinho">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRonaldinho" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselRonaldinho" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - MILAN 2009 - MANGA LARGA - RONALDINHO</h5>
+<h3>40.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselMaradona" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/MARADONA 1986 FRENTE.png" class="d-block w-100" alt="Camiseta-Maradona">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/MARADONA 1986 ATRAS.png" class="d-block w-100" alt="Camiseta-Maradona">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMaradona" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselMaradona" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - ARGENTINA 1986 - DIEGO ARMANDO MARADONA</h5>
+<h3>45.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselRonaldo2002" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/RONALDO 2002 FRENTE.png" class="d-block w-100" alt="Camiseta-Ronaldo-Brasil">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/RONALDO 2002 ATRAS.png" class="d-block w-100" alt="Camiseta-Ronaldo-Brasil">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRonaldo2002" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselRonaldo2002" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - BRASIL AÑO 2001/2002 - RONALDO NAZARIO</h5>
+<h3>39.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselMessi06" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/MESSI 2006 FRENTE.png" class="d-block w-100" alt="Camiseta-Messi2006">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/MESSI 2006 ATRAS.png" class="d-block w-100" alt="Camiseta-Messi2006">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMessi06" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselMessi06" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - ARGENTINA AÑO 2006 - LIONEL ANDRES MESSI</h5>
+<h3>33.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselFrancescoli" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/FRANCESCOLI 96 FRENTE.png" class="d-block w-100" alt="Camiseta-Francescoli">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/FRANCESCOLI 94 ATRAS.png" class="d-block w-100" alt="Camiseta-Francescoli">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFrancescoli" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselFrancescoli" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - RIVER 1996 - FRANCESCOLI</h5>
+<h3>25.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselCR72008" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/CR7 2008 FRENTE.png" class="d-block w-100" alt="Camiseta-CR72008">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/CR7 2008 ATRAS.png" class="d-block w-100" alt="Camiseta-CR72008">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCR72008" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselCR72008" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - UNITED 2008 - CRISTIANO RONALDO</h5>
+<h3>39.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+<article class="card p-3">
+<div id="carouselCR72006" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/CR7 2006 FRENTE.png" class="d-block w-100" alt="Camiseta-CR72006">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/CR7 2006 ATRAS.png" class="d-block w-100" alt="Camiseta-CR72006">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCR72006" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselCR72006" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<h5 class="card-title mt-2">CAMISETA RETRO - PORTUGAL 2006 - CRISTIANO RONALDO</h5>
+<h3>35.000$</h3>
+<button class="btn btn-success w-100">Comprar</button>
+</article>
+            </div>
+        </section>
+
+        <!-- Paginación -->
+<nav aria-label="Page navigation example">
+<ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+    <a class="page-link">Anterior</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+    <a class="page-link" href="#">Siguiente</a>
+    </li>
+</ul>
+</nav>
+    </main>
+    <footer>
+        <!-- Redes sociales -->
+        <div class="redes-sociales">
+            <a class="a-redes" href="https://www.instagram.com/museo.futbolero/?hl=es-la">
+                <img class="instagram" src="./img/INSTAGRAM.png" alt="Logo-de-instagram">
+            </a>
+            <a class="a-redes" href="https://www.facebook.com/museodelfutbolpasion/?locale=es_LA">
+                <img class="facebook" src="./img/FACEBOOK.png" alt="Logo-de-Facebook">
+            </a>
+            <a class="a-redes" href="https://x.com/i/flow/login?redirect_after_login=%2Fmuseoyfutbol">
+                <img class="twitter" src="./img/TWITTER.png" alt="Logo-de-twitter">
+            </a>
+        </div>
+        <section class="footer">
+            <!-- Navegación -->
+            <nav>
+                <h4 class="navegacion">NAVEGACIÓN</h4>
+                <ul>
+                    <li class="lista-navegacion"><a class="links-navegacion" href="index.html">Productos</a></li>
+                    <li class="lista-navegacion"><a class="links-navegacion" href="/pages/contactanos.html">Contactanos</a></li>
+                    <li class="lista-navegacion"><a class="links-navegacion" href="/pages/preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+                </ul>
+            </nav>
+    
+            <!-- Métodos de pago -->
+            <nav>
+                <h4 class="metodos-pago">MÉTODOS DE PAGO</h4>
+                <div class="div-medios-pago">
+                <img class="logo-pago" src="./img/Paypal_2014_logo.png" alt="Logo-de-PayPal">
+                <img class="logo-pago" src="./img/MasterCard_early_1990s_logo.png" alt="Logo-de-Mastercard">
+                <img class="logo-pago" src="./img/visa.png" alt="Logo-de-Visa">
+                <img class="logo-pago" src="./img/amex.png" alt="Logo-de-American Express">
+                <img class="logo-pago" src="./img/Logo_Naranja.png" alt="Logo-de-Naranja">
+                <img class="logo-pago" src="./img/pago-facil-2019-logo-png_seeklogo-349244.png" alt="Logo-de-PagoFacil">
+                </div>
+            </nav>
+            <!-- Contacto -->
+            <nav class="contacto">
+                <h4 class="estilo-contacto">CONTACTANOS</h4>
+                <a class="mail-tel" href="mailto:info@museofutbolero.com">info@museofutbolero.com</a>
+                <a class="mail-tel" href="tel:+1126343428">1126343428</a>
+            </nav>
+    
+            <!-- Información legal -->
+            <nav>
+                <h4 class="info-legal">INFORMACIÓN LEGAL</h4>
+                <ul>
+                    <li class="li-info-legal"><a class="a-info-legal" href="">Términos y condiciones</a></li>
+                    <li class="li-info-legal"><a class="a-info-legal" href="">Políticas de privacidad</a></li>
+                </ul>
+            </nav>
+    
+            <!-- Envíos y devoluciones -->
+            <nav>
+                <h4 class="info-envio">INFORMACIÓN DE ENVÍO Y DEVOLUCIONES</h4>
+                <ul>
+                    <li class="li-envios"><a class="a-envios" href="">Política de envíos</a></li>
+                    <li class="li-envios"><a class="a-envios" href="">Política de cambios y devoluciones</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,880 @@
+/* RESET */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: 'Poppins', sans-serif;
+}
+/* Encabezado */
+.contenedor-encabezado {
+    height: 100px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(77, 211, 117, 0.452)
+}
+/* Logo */
+.logo {
+    height: 60px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+/* Título */
+.titulo {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    line-height: 100px;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/* Links (derecha) */
+.links-derecha {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    line-height: 100px;
+    font-size: 15px;
+}
+.texto-nosotros {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+/* Barra de búsqueda */
+.barra-cuenta-carrito {
+    position: relative;
+    height: 60px;
+    margin-top: 0px;
+    text-align: center; 
+    background-color: rgb(130, 224, 170)
+}
+.contenedor-barra {
+    display: inline-block; 
+}
+/* Iconos */
+.cuenta-compras {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 60px; 
+    line-height: 60px;
+}
+.cuenta-compras img {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.inicio-sesion {
+    height: auto;
+    width: 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.carro-compras {
+    height: auto;
+    width: 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.a-cuenta-compras {
+    text-decoration: none;
+}
+/* Barra de ayudas */
+.barra-importante {
+    display: inline-block;
+    margin-right: 20px;
+}
+.enlace-barra {
+    text-decoration: none;
+    color: white;
+}
+.fondo-barra {
+    background-color: rgb(128, 139, 150);
+    height: 35px;
+    padding: 10px;
+}
+/* Filtros para ordenar */
+.section-1 {
+    position: relative;
+}
+/* CAMISETAS, PRECIO, COMPRAR */
+.section-camisetas {
+    text-align: center;
+}
+.div-camisetas {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+margin-bottom: 20px;
+}
+.div-camisetas article {
+width: 250px;
+background-color: rgb(213, 245, 227);
+padding: 10px;
+box-sizing: border-box;
+border: #40cf7c7e solid;
+margin: 10px;
+text-align: center;
+border-radius: 10px;
+}
+.boton-camisetas {
+    background-color: green;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: medium;
+}
+/* Camisetas */
+.batistuta {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.messi-2015 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.zidane-2006 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.riquelme-2007 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.neymar-2011 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.redondo-1998 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.torres-2008 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.ronaldo-1998 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.ronaldinho-2009 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.maradona-1986 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.ronaldo-2002 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.messi-2006 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.francescoli-1996 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.cr7-2008 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+.cr7-2006 {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+/* Paso de pagina */
+.div-pagina {
+    text-align: center;
+}
+.paso-de-pagina {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px
+}
+/*Redes sociales */
+.redes-sociales {
+    margin-top: 30px;
+    background-color: rgba(77, 211, 117, 0.452);
+    padding: 40px;
+    text-align: center;
+}
+.instagram {
+    width: 40px;
+    margin: 0 10px;
+}
+.facebook {
+    width: 40px;
+    margin: 0 10px;
+}
+.twitter {
+    width: 40px;
+    margin: 0 10px;
+}
+.a-redes {
+    text-decoration: none;
+}
+/*Footer */
+.footer {
+    background-color: rgba(128, 128, 128, 0.863);
+    padding: 20px;
+}
+.footer nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+/* Navegacion */
+.navegacion {
+    margin-top: 10px;
+    color: white;
+    font-style: normal;
+    text-transform: uppercase;
+    position: relative;
+}
+.lista-navegacion {
+    list-style-type: none;
+    margin-top: 10px;
+}
+.links-navegacion {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+/* Medios de pago */
+.metodos-pago {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.div-medios-pago {
+    text-align: center;
+}
+.logo-pago {
+    height: auto;
+    width: 35px;
+}
+/* Contactanos */
+.contacto {
+    text-align: right; 
+    margin-top: 10px;
+}
+.estilo-contacto {
+    color: white;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.mail-tel {
+    display: block; 
+    text-decoration: none;
+    color: white;
+    margin-top: 10px; 
+    font-size: 16px;  
+}
+/* Informacion legal */
+.info-legal {
+    margin-top: 10px;
+    color: white;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.li-info-legal {
+    list-style-type: none;
+    margin-top: 10px;
+}
+.a-info-legal {
+    text-decoration: none;
+    color: white;
+}
+/* Envios y devoluciones */
+.info-envio {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.li-envios {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.a-envios {
+    text-decoration: none;
+    color: white;
+}
+/* CSS html sobre nosotros */
+.h2-sobre-nosotros {
+    text-align: center;
+    margin-top: 20px;
+    font-family: font-family 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+.p-sobre-nosotros {
+    text-align: center;
+    margin-top: 50px;
+    font-family: font-family 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 0 20px;
+}
+.div1-sobre-nosotros {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
+}
+.imagen1-sobre-nosotros {
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: #40cf7c7e solid;
+}
+.imagen2-sobre-nosotros {
+    width: 540px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: #40cf7c7e solid;
+}
+.imagen3-sobre-nosotros {
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: #40cf7c7e solid;
+}
+
+/* Preguntas frecuentes */
+.h2-preguntas-frecuentes {
+    text-align: left;
+    font-family: font-family 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.h3-preguntas-frecuentes {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 550px;
+    background-color: rgb(130, 224, 170)
+}
+.li-pregutas-pago {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.p-preguntas-frecuentes {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+/* Lavados recomendados */
+.h2-lavados {
+    text-align: left;
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.li-lavados {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.p-lavados {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.span-lavados {
+    font-weight: bold;
+    color: red;
+}
+/*Contactanos*/
+.h2-contacto {
+    text-align: left;
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.h3-contacto {
+    font-size: 15px;
+    margin-top: 20px;
+    position: relative;
+}
+.formulario-contacto,
+.div-cuenta,
+.div-inicio-sesion {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgba(77, 211, 117, 0.1);
+}
+.input-contacto {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.area-contacto {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.boton-contacto {
+    background-color: #40cf7c;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+/* Crear cuenta */
+.h2-cuenta {
+    text-align: center;
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.p-cuenta {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: relative;
+    font-weight: bold;
+}
+.div-cuenta {
+    text-align: center;
+    background-color: rgba(77, 211, 117, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 20%;
+    margin: auto;
+}
+.input-cuenta {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.boton-cuenta {
+    background-color: #40cf7c;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.h3-cuenta {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.enlace-inicar-sesion {
+    color: black;
+    margin-left: 10px;
+}
+/* Iniciar sesion */
+.h2-inicio-sesion {
+    text-align: center;
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.div-inicio-sesion {
+    text-align: center;
+    background-color: rgba(77, 211, 117, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 20%;
+    margin: auto;
+}
+.input-inicio-sesion {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.boton-inicio-sesion {
+    background-color: #40cf7c;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.h3-inicio-sesion {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.enlace-inicio-sesion{
+    color: black;
+    margin-left: 10px;
+}
+
+/* RESPONSIVE MOBILE (0–599px)*/
+@media (max-width: 599px) {
+.contenedor-encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+}
+
+.titulo {
+    position: static;
+    font-size: 28px;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px 0;
+}
+
+.links-derecha {
+    position: static;
+    font-size: 18px;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.barra-cuenta-carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+}
+
+.contenedor-barra {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-de-busqueda {
+    width: 90%;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.cuenta-compras {
+    position: static;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.inicio-sesion,
+.carro-compras {
+    width: 30px;
+}
+
+.fondo-barra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+}
+
+.barra-importante {
+    margin: 5px 0;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.ordenar-por-texto,
+.ordenar-por {
+    position: static;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.div-camisetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.div-camisetas article {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.div1-sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen1-sobre-nosotros,
+.imagen2-sobre-nosotros,
+.imagen3-sobre-nosotros {
+    width: 90%;
+    margin: 10px 0;
+}
+
+.p-sobre-nosotros {
+    padding: 0 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.h3-preguntas-frecuentes,
+.li-pregutas-pago,
+.p-preguntas-frecuentes,
+.h2-lavados,
+.li-lavados,
+.p-lavados,
+.h2-contacto,
+.h3-contacto,
+.formulario-contacto,
+.div-cuenta,
+.div-inicio-sesion {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer nav {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.contacto {
+    text-align: center;
+    margin: 10px 0;
+}
+}
+/* RESPONSIVE TABLET (600–1023px) */
+@media (min-width: 600px) and (max-width: 1023px) {
+.contenedor-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: auto;
+    text-align: left;
+}
+
+.titulo {
+    position: static;
+    font-size: 36px;
+    line-height: normal;
+    margin: 0;
+}
+
+.logo {
+    height: 60px;
+    margin: 10px;
+}
+
+.links-derecha {
+    position: static;
+    font-size: 20px;
+    margin: 0;
+    text-align: right;
+}
+
+.barra-cuenta-carrito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.contenedor-barra {
+    width: auto;
+}
+
+.barra-de-busqueda {
+    width: 300px;
+}
+
+.cuenta-compras {
+    display: flex;
+    gap: 10px;
+    margin-top: 0;
+}
+
+.fondo-barra {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.barra-importante {
+    margin: 0 10px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+.ordenar-por-texto {
+    right: 105px;
+    font-size: 15px;
+    margin-top: 115px;
+}
+
+.ordenar-por {
+    width: 100px;
+    text-align: right;
+    right: 0;
+    margin-top: 120px;
+}
+
+.subtitulo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.div-camisetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.div-camisetas article {
+    width: 90%;
+}
+
+.imagen1-sobre-nosotros,
+.imagen2-sobre-nosotros,
+.imagen3-sobre-nosotros {
+    width: 90%;
+    margin: 10px 0;
+}
+
+.div-cuenta,
+.div-inicio-sesion {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer nav {
+    width: 30%;
+    text-align: left;
+}
+}
+/* RESPONSIVE DESKTOP (1024px) */
+@media (min-width: 1024px) {
+.cuenta-compras {
+    display: flex;
+    gap: 15px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.subtitulo {
+    text-align: center;
+    flex: 1;
+}
+
+.ordenar-por-texto {
+    margin-top: 105px;
+    right: 205px;
+    text-align: right;
+}
+
+.ordenar-por {
+    margin-top: 105px;
+    right: 0px;
+    width: 200px;
+    text-align: right;
+}
+
+.div-camisetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.div-camisetas article {
+    width: 250px;
+}
+.imagen1-sobre-nosotros,
+.imagen2-sobre-nosotros,
+.imagen3-sobre-nosotros {
+    max-width: 600px;
+    margin: 10px;
+}
+
+.div-cuenta,
+.div-inicio-sesion {
+    width: 400px;
+    margin: 20px auto;
+}
+}
