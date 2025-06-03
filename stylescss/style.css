@@ -878,3 +878,7 @@ background-color: rgba(77, 211, 117, 0.1);
     margin: 20px auto;
 }
 }
+img {
+max-width: 100%;
+height: auto;
+}
