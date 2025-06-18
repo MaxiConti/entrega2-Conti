@@ -1,0 +1,43 @@
+/*Contactanos*/
+.h2-contacto {
+    text-align: left;
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.h3-contacto {
+    font-size: 15px;
+    margin-top: 20px;
+    position: relative;
+}
+.formulario-contacto,
+.div-cuenta,
+.div-inicio-sesion {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgba(77, 211, 117, 0.1);
+}
+.input-contacto {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.area-contacto {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.boton-contacto {
+    background-color: #40cf7c;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}

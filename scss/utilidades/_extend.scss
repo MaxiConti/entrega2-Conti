@@ -1,0 +1,43 @@
+
+//* EXTEND *//
+%estilo-imagen-camiseta {
+height: auto;
+width: 200px;
+border-radius: 10px;
+}
+
+%estilo-input {
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ddd;
+margin-bottom: 20px;
+}
+.input-contacto,
+.input-cuenta,
+.input-inicio-sesion {
+@extend %estilo-input;
+}
+
+.area-contacto {
+@extend %estilo-input;
+margin-bottom: 10px;
+}
+
+.batistuta,
+.messi-2015,
+.zidane-2006,
+.riquelme-2007,
+.neymar-2011,
+.redondo-1998,
+.torres-2008,
+.ronaldo-1998,
+.ronaldinho-2009,
+.maradona-1986,
+.ronaldo-2002,
+.messi-2006,
+.francescoli-1996,
+.cr7-2008,
+.cr7-2006 {
+@extend %estilo-imagen-camiseta;
+}

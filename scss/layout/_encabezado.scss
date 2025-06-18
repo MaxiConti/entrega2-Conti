@@ -1,0 +1,128 @@
+.contenedor-encabezado {
+background-color: $verde-principal;
+text-align: center;
+
+.logo {
+    height: 60px;
+    margin-top: 20px;
+}
+
+.titulo {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    line-height: 100px;
+    font-size: 50px;
+    font-family: $fuente-secundaria;
+}
+
+.links-derecha {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    line-height: 100px;
+    font-size: 15px;
+}
+
+.texto-nosotros {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: $fuente-secundaria;
+    text-transform: uppercase;
+}
+}
+/* Encabezado */
+.contenedor-encabezado {
+    height: 100px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(77, 211, 117, 0.452)
+}
+/* Logo */
+.logo {
+    height: 60px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+/* Título */
+.titulo {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    line-height: 100px;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/* Links (derecha) */
+.links-derecha {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    line-height: 100px;
+    font-size: 15px;
+}
+.texto-nosotros {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+/* Barra de búsqueda */
+.barra-cuenta-carrito {
+    position: relative;
+    height: 60px;
+    margin-top: 0px;
+    text-align: center; 
+    background-color: rgb(130, 224, 170)
+}
+.contenedor-barra {
+    display: inline-block; 
+}
+/* Iconos */
+.cuenta-compras {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 60px; 
+    line-height: 60px;
+}
+.cuenta-compras img {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.inicio-sesion {
+    height: auto;
+    width: 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.carro-compras {
+    height: auto;
+    width: 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.a-cuenta-compras {
+    text-decoration: none;
+}
+/* Barra de ayudas */
+.barra-importante {
+    display: inline-block;
+    margin-right: 20px;
+}
+.enlace-barra {
+    text-decoration: none;
+    color: white;
+}
+.fondo-barra {
+    background-color: rgb(128, 139, 150);
+    height: 35px;
+    padding: 10px;
+}

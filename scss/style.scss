@@ -1,0 +1,20 @@
+@import 'utilidades/variables';
+@import 'utilidades/extend';
+@import 'utilidades/mixing';
+
+@import 'reset/reset';
+
+@import 'layout/encabezado';
+@import 'layout/footer';
+@import 'layout/main';
+
+@import 'mq/medias';
+@import 'animaciones/animaciones';
+
+
+@import 'pages/sobre-nosotros';
+@import 'pages/preguntas-frecuentes';
+@import 'pages/lavado-recomendado';
+@import 'pages/contactanos';
+@import 'pages/cuenta';
+@import 'pages/inicio-sesion';

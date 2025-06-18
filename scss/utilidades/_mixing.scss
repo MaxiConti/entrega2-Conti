@@ -1,0 +1,15 @@
+
+//* MIXING *//
+@mixin flex-center {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@mixin boton-base($bg-color: $verde-boton) {
+background-color: $bg-color;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px;
+}

@@ -1,0 +1,339 @@
+/* RESPONSIVE MOBILE (0–599px)*/
+@media (max-width: 599px) {
+.contenedor-encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+}
+
+.titulo {
+    position: static;
+    font-size: 28px;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px 0;
+}
+
+.links-derecha {
+    position: static;
+    font-size: 18px;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.barra-cuenta-carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+}
+
+.contenedor-barra {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-de-busqueda {
+    width: 90%;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.cuenta-compras {
+    position: static;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.inicio-sesion,
+.carro-compras {
+    width: 30px;
+}
+
+.fondo-barra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+}
+
+.barra-importante {
+    margin: 5px 0;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.ordenar-por-texto,
+.ordenar-por {
+    position: static;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.div-camisetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.div-camisetas article {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.div1-sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen1-sobre-nosotros,
+.imagen2-sobre-nosotros,
+.imagen3-sobre-nosotros {
+    width: 90%;
+    margin: 10px 0;
+}
+
+.p-sobre-nosotros {
+    padding: 0 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.h3-preguntas-frecuentes,
+.li-pregutas-pago,
+.p-preguntas-frecuentes,
+.h2-lavados,
+.li-lavados,
+.p-lavados,
+.h2-contacto,
+.h3-contacto,
+.formulario-contacto,
+.div-cuenta,
+.div-inicio-sesion {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer nav {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.contacto {
+    text-align: center;
+    margin: 10px 0;
+}
+}
+/* RESPONSIVE TABLET (600–1023px) */
+@media (min-width: 600px) and (max-width: 1023px) {
+.contenedor-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: auto;
+    text-align: left;
+}
+
+.titulo {
+    position: static;
+    font-size: 36px;
+    line-height: normal;
+    margin: 0;
+}
+
+.logo {
+    height: 60px;
+    margin: 10px;
+}
+
+.links-derecha {
+    position: static;
+    font-size: 20px;
+    margin: 0;
+    text-align: right;
+}
+
+.barra-cuenta-carrito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.contenedor-barra {
+    width: auto;
+}
+
+.barra-de-busqueda {
+    width: 300px;
+}
+
+.cuenta-compras {
+    display: flex;
+    gap: 10px;
+    margin-top: 0;
+}
+
+.fondo-barra {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.barra-importante {
+    margin: 0 10px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+.ordenar-por-texto {
+    right: 105px;
+    font-size: 15px;
+    margin-top: 115px;
+}
+
+.ordenar-por {
+    width: 100px;
+    text-align: right;
+    right: 0;
+    margin-top: 120px;
+}
+
+.subtitulo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.div-camisetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.div-camisetas article {
+    width: 90%;
+}
+
+.imagen1-sobre-nosotros,
+.imagen2-sobre-nosotros,
+.imagen3-sobre-nosotros {
+    width: 90%;
+    margin: 10px 0;
+}
+
+.div-cuenta,
+.div-inicio-sesion {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer nav {
+    width: 30%;
+    text-align: left;
+}
+}
+/* RESPONSIVE DESKTOP (1024px) */
+@media (min-width: 1024px) {
+.cuenta-compras {
+    display: flex;
+    gap: 15px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.subtitulo {
+    text-align: center;
+    flex: 1;
+}
+
+.ordenar-por-texto {
+    margin-top: 105px;
+    right: 205px;
+    text-align: right;
+}
+
+.ordenar-por {
+    margin-top: 105px;
+    right: 0px;
+    width: 200px;
+    text-align: right;
+}
+
+.div-camisetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.div-camisetas article {
+    width: 250px;
+}
+.imagen1-sobre-nosotros,
+.imagen2-sobre-nosotros,
+.imagen3-sobre-nosotros {
+    max-width: 600px;
+    margin: 10px;
+}
+
+.div-cuenta,
+.div-inicio-sesion {
+    width: 400px;
+    margin: 20px auto;
+}
+}
+img {
+max-width: 100%;
+height: auto;
+}

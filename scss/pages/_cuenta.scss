@@ -1,0 +1,47 @@
+/* Crear cuenta */
+.h2-cuenta {
+    text-align: center;
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.p-cuenta {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: relative;
+    font-weight: bold;
+}
+.div-cuenta {
+    text-align: center;
+    background-color: rgba(77, 211, 117, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 20%;
+    margin: auto;
+}
+.input-cuenta {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.boton-cuenta {
+    background-color: #40cf7c;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.h3-cuenta {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.enlace-inicar-sesion {
+    color: black;
+    margin-left: 10px;
+}
